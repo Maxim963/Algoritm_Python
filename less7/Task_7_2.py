@@ -4,8 +4,8 @@
 import random
 
 min = 0
-max = 51
-arr = [random.random() * 50 for i in range(50)]
+max = 50
+arr = [random.randint(min, max) for i in range(50)]
 random.shuffle(arr)
 print(arr)
 
